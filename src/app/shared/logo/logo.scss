@@ -1,0 +1,28 @@
+.logo {
+    --primary-color: #FFB770;
+    --secondary-color: #35273A;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7px;
+
+    &__text {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'NerkoOne-Regular';
+        font-size: 26px;
+        line-height: 16px;
+        letter-spacing: 3%;
+
+        &--light {
+            color: var(--primary-color);
+        }
+
+        &--dark {
+            color: var(--secondary-color);
+        }
+    }
+}

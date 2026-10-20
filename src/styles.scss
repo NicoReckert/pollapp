@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@use './styles/fonts';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    scrollbar-width: thin;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    scroll-behavior: smooth;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: #35273A;
+}
+
+button {
+    cursor: pointer;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+}

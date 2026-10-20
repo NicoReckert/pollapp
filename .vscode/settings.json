@@ -1,0 +1,35 @@
+{
+    "files.exclude": {
+        "**/*.spec.ts": true,
+        "**/node_modules": true,
+        "**/.angular": true,
+        "**/angular.json": true,
+        "**/package-lock.json": true,
+        "**/package.json": true,
+        "**/tsconfig.app.json": true,
+        "**/tsconfig.json": true,
+        "**/tsconfig.spec.json": true,
+        "**/README.md": true,
+        "**/.prettierrc": true,
+        "**/.editorconfig": true,
+        "**/extensions.json": true,
+        "**/launch.json": true,
+        "**/tasks.json": true,
+        "**/.gitignore": true,
+        "**/main.ts": true,
+        "**/index.html": true
+    },
+    "search.exclude": {
+        "**/*.spec.ts": false,
+        "**/angular.json": false,
+        "**/package-lock.json": true,
+        "**/package.json": false,
+        "**/tsconfig.app.json": false,
+        "**/tsconfig.json": false,
+        "**/tsconfig.spec.json": false,
+        "**/README.md": false,
+        "**/.gitignore": false,
+        "**/main.ts": false,
+        "**/index.html": false
+    }
+}
