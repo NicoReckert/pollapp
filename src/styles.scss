@@ -1,5 +1,12 @@
 @use './styles/fonts';
 
+
+:root {
+    --primary-color: #FFB770;
+    --secondary-color: #35273A;
+    --tertiary-color: #221227;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { Logo } from '../../shared/logo/logo';
+import { PrimaryButton } from '../../shared/primary-button/primary-button';
 
 @Component({
-  imports: [Logo],
+  imports: [Logo, PrimaryButton],
   selector: 'app-header',
   styleUrl: './header.scss',
   templateUrl: './header.html',
