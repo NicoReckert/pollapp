@@ -4,4 +4,9 @@
     align-items: center;
     width: 100%;
     padding: 48px 111px;
+
+    //for component test
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 36px;
 }

@@ -1,0 +1,15 @@
+.survey-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 12px 3px 8px;
+    border-top-right-radius: 14px;
+    background-color: #FFB770;
+
+    &__text {
+        font-family: 'Mulish-SemiBold';
+        font-size: 16px;
+        line-height: 100%;
+        color: #221227;
+    }
+}
