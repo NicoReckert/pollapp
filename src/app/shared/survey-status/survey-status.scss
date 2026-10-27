@@ -4,7 +4,14 @@
     align-items: center;
     padding: 3px 12px 3px 8px;
     border-top-right-radius: 14px;
-    background-color: #FFB770;
+    
+    &--published {
+        background-color: #FFB770;
+    }
+
+    &--draft {
+        background-color: #FEE9D4;
+    }
 
     &__text {
         font-family: 'Mulish-SemiBold';

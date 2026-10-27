@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   imports: [],
@@ -6,4 +6,16 @@ import { Component } from '@angular/core';
   styleUrl: './survey-status.scss',
   templateUrl: './survey-status.html',
 })
-export class SurveyStatus {}
+export class SurveyStatus {
+  @Input() variant: 'published' | 'draft' = 'published';
+
+  get statusText(): string {
+    return this.variant === 'published' ? 'Published' : 'Draft';
+  }
+
+  get statusClass(): string {
+    return this.variant === 'published'
+      ? 'survey-status--published'
+      : 'survey-status--draft';
+  }
+}
