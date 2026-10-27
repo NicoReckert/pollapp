@@ -10,13 +10,12 @@
     padding: 8px 12px;
     background-color: #FFB7704D;
     border: none;
-    transition: all 200ms ease-in-out;
 
     &:hover {
         background-color: #FFB77099;
     }
 
     &:active {
-        background-color: #FFB7704D;
+        transform: scale(0.98);
     }
 }

@@ -1,0 +1,21 @@
+.delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+    background-color: transparent;
+
+    &:hover {
+        background-color: #FFB77099;
+
+        .delete__icon {
+            content: url('/assets/icons/delete-black.svg');
+        }
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+}

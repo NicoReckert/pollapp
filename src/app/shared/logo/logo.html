@@ -1,7 +1,6 @@
 <div class="logo">
     <img [src]="logoSrc" alt="">
-    <div class="logo__text" [class.logo__text--light]="variant === 'light'"
-        [class.logo__text--dark]="variant === 'dark'">
+    <div class="logo__text" [class]="logoTextClass">
         <p>Poll</p>
         <p>App</p>
     </div>

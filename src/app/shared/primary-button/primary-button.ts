@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   imports: [],
@@ -6,4 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './primary-button.scss',
   templateUrl: './primary-button.html',
 })
-export class PrimaryButton {}
+export class PrimaryButton {
+  @Input() variant: 'add' | 'checked' = 'add';
+
+  get iconSrc(): string {
+    return this.variant === 'add'
+      ? '/assets/icons/primary-button-add.svg'
+      : '/assets/icons/primary-button-check.svg';
+  }
+}

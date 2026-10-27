@@ -22,9 +22,7 @@
     }
 
     &:active {
-        .primary-button__icon {
-            content: url("/assets/icons/primary-button-check.svg");
-        }
+        transform: scale(0.98);
     }
 
     &__icon {

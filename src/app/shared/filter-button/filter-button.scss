@@ -10,7 +10,6 @@
     padding: 2px 10px;
     background-color: #FEE9D4;
     border: none;
-    transition: all 200ms ease-in-out;
 
     &:hover {
         background-color: #FFCFA1;
@@ -18,5 +17,6 @@
 
     &:active {
         background-color: #FFB770;
+        transform: scale(0.98);
     }
 }

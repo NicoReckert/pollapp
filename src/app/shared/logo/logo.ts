@@ -13,4 +13,10 @@ export class Logo {
       ? '/assets/icons/logo-light.svg'
       : '/assets/icons/logo-dark.svg';
   }
+
+  get logoTextClass(): string {
+    return this.variant === 'light'
+      ? 'logo__text--light'
+      : 'logo__text--dark';
+  }
 }
