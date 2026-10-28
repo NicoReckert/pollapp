@@ -7,9 +7,10 @@ import { SurveyStatus } from '../../shared/survey-status/survey-status';
 import { Delete } from '../../shared/delete/delete';
 import { Edit } from '../../shared/edit/edit';
 import { CheckBox } from '../../shared/check-box/check-box';
+import { Answear } from '../../shared/answear/answear';
 
 @Component({
-  imports: [Logo, PrimaryButton, SecondaryButton, FilterButton, SurveyStatus, Delete, Edit, CheckBox],
+  imports: [Logo, PrimaryButton, SecondaryButton, FilterButton, SurveyStatus, Delete, Edit, CheckBox, Answear],
   selector: 'app-header',
   styleUrl: './header.scss',
   templateUrl: './header.html',
