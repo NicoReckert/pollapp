@@ -5,9 +5,10 @@ import { SecondaryButton } from '../../shared/secondary-button/secondary-button'
 import { FilterButton } from '../../shared/filter-button/filter-button';
 import { SurveyStatus } from '../../shared/survey-status/survey-status';
 import { Delete } from '../../shared/delete/delete';
+import { Edit } from '../../shared/edit/edit';
 
 @Component({
-  imports: [Logo, PrimaryButton, SecondaryButton, FilterButton, SurveyStatus, Delete],
+  imports: [Logo, PrimaryButton, SecondaryButton, FilterButton, SurveyStatus, Delete, Edit],
   selector: 'app-header',
   styleUrl: './header.scss',
   templateUrl: './header.html',
