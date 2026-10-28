@@ -1,0 +1,24 @@
+.check-box {
+    appearance: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border: 1.5px solid #35273A;
+    border-radius: 1.5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #FFCFA199;
+    }
+
+    &:checked {
+        background-color: #FFB770;
+
+        &::after {
+            content: url('/assets/icons/check-box-checked.svg');
+        }
+    }
+}
